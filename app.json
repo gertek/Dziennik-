@@ -1,12 +1,11 @@
 {
   "expo": {
-    "name": "surprised-green-macaroni-and-cheese",
-    "slug": "snack-12d20c69-ecf3-48b6-8541-d60225cfc910",
+    "name": "Dziennik Treningowy",
+    "slug": "dziennik-treningowy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -16,15 +15,14 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.gertek.dzienniktreningowy
+      "package": "com.gertek.dzienniktreningowy",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "metro"
     }
   }
 }
