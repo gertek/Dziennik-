@@ -5,11 +5,8 @@
   "build": {
     "preview": {
       "android": {
-        "developmentClient": false,
-        "distribution": "internal",
         "buildType": "apk"
       }
-    },
-    "production": {}
+    }
   }
 }
